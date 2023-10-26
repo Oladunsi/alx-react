@@ -1,0 +1,8 @@
+0x00-Webpack/task_0/main.js
+0x00-Webpack/task_0/node_modules
+0x00-Webpack/task_0/package-lock.json
+
+node_modules/
+assets/
+
+*.jpg

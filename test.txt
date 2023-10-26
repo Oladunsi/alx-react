@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 not empty
+=======
+*jpg
+>>>>>>> 25d257c (added gitignore file to prevent pushing node_modules directory)
