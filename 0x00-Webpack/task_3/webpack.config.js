@@ -32,10 +32,15 @@ module.exports = {
 		path: path.resolve(__dirname, 'public'),
 		filename: '[name].bundle.js',
 	},
+	optimization: {
+		splitChunks: {
+			chuncks: 'all'
+		}
+	},
 	devServer: {
-		static: path.resolve(__dirname,'public'),
+		static: path.resolve(__dirname,'./public'),
 		open: true,
-		port: 8564
+		port: 8564,
 	},
 	performance: {
 		maxAssetSize: 1000000,
